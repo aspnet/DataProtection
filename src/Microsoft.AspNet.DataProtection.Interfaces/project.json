@@ -1,27 +1,27 @@
 {
-    "version": "1.0.0-*",
+    "version": "1.0.0-beta4",
     "description": "Contains the core IDataProtector and IDataProtectionProvider interfaces for ASP.NET 5 Data Protection.",
     "dependencies": {
-        "Microsoft.Framework.NotNullAttribute.Internal": { "type": "build", "version": "1.0.0-*" },
+        "Microsoft.Framework.NotNullAttribute.Internal": { "type": "build", "version": "1.0.0-beta4" },
         "Microsoft.AspNet.DataProtection.Shared": { "type": "build", "version": "" }
     },
     "frameworks": {
         "net451": { },
         "dnx451": {
             "dependencies": {
-                "Microsoft.Framework.Runtime.Interfaces": "1.0.0-*"
+                "Microsoft.Framework.Runtime.Interfaces": "1.0.0-beta4"
             }
         },
         "dnxcore50": {
             "dependencies": {
-                "Microsoft.Framework.Runtime.Interfaces": "1.0.0-*",
-                "System.ComponentModel": "4.0.0-beta-*",
-                "System.Diagnostics.Debug": "4.0.10-beta-*",
-                "System.Reflection": "4.0.10-beta-*",
-                "System.Resources.ResourceManager": "4.0.0-beta-*",
-                "System.Runtime.Extensions": "4.0.10-beta-*",
-                "System.Security.Cryptography.Encryption": "4.0.0-beta-*",
-                "System.Text.Encoding.Extensions": "4.0.10-beta-*"
+                "Microsoft.Framework.Runtime.Interfaces": "1.0.0-beta4",
+                "System.ComponentModel": "4.0.0-beta-22816",
+                "System.Diagnostics.Debug": "4.0.10-beta-22816",
+                "System.Reflection": "4.0.10-beta-22816",
+                "System.Resources.ResourceManager": "4.0.0-beta-22816",
+                "System.Runtime.Extensions": "4.0.10-beta-22816",
+                "System.Security.Cryptography.Encryption": "4.0.0-beta-22816",
+                "System.Text.Encoding.Extensions": "4.0.10-beta-22816"
             }
         }
     },

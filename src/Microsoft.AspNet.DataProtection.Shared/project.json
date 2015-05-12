@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0-*",
+    "version": "1.0.0-beta4",
     "description": "ASP.NET 5 Data Protection shared code.",
     "dependencies": {
     },
@@ -8,8 +8,8 @@
         "dnx451": { },
         "dnxcore50": {
             "dependencies": {
-                "System.Security.Cryptography.Encryption": "4.0.0-beta-*",
-                "System.Text.Encoding.Extensions": "4.0.10-beta-*"
+                "System.Security.Cryptography.Encryption": "4.0.0-beta-22816",
+                "System.Text.Encoding.Extensions": "4.0.10-beta-22816"
             }
         }
     },

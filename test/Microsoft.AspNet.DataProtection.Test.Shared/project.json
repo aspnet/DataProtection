@@ -1,8 +1,8 @@
 {
     "dependencies": {
-        "Microsoft.AspNet.Cryptography.Internal": "1.0.0-*",
-        "Microsoft.AspNet.Testing": "1.0.0-*",
-        "xunit.runner.aspnet": "2.0.0-aspnet-*"
+        "Microsoft.AspNet.Cryptography.Internal": "1.0.0-beta4",
+        "Microsoft.AspNet.Testing": "1.0.0-beta4",
+        "xunit.runner.aspnet": "2.0.0-aspnet-beta4"
     },
     "frameworks": {
         "dnx451": { },
