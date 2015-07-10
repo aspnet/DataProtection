@@ -1,11 +1,11 @@
 {
     "dependencies": {
-        "Microsoft.AspNet.Cryptography.Internal": "1.0.0-*",
-        "Microsoft.AspNet.Cryptography.KeyDerivation": "1.0.0-*",
+        "Microsoft.AspNet.Cryptography.Internal": "1.0.0-beta5",
+        "Microsoft.AspNet.Cryptography.KeyDerivation": "1.0.0-beta5",
         "Microsoft.AspNet.DataProtection.Test.Shared": "",
-        "Microsoft.AspNet.Testing": "1.0.0-*",
+        "Microsoft.AspNet.Testing": "1.0.0-beta5",
         "Moq": "4.2.1312.1622",
-        "xunit.runner.aspnet": "2.0.0-aspnet-*"
+        "xunit.runner.aspnet": "2.0.0-aspnet-beta5"
     },
     "frameworks": {
         "dnx451": { }
