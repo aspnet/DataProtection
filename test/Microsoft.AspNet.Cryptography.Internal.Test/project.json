@@ -1,12 +1,15 @@
 {
     "dependencies": {
-        "Microsoft.AspNet.Cryptography.Internal": "1.0.0-*",
-        "Microsoft.AspNet.DataProtection.Test.Shared": { "type": "build", "version": "" },
-        "Microsoft.AspNet.Testing": "1.0.0-*",
-        "xunit.runner.aspnet": "2.0.0-aspnet-*"
+        "Microsoft.AspNet.Cryptography.Internal": "1.0.0-beta6",
+        "Microsoft.AspNet.DataProtection.Test.Shared": {
+            "type": "build",
+            "version": ""
+        },
+        "Microsoft.AspNet.Testing": "1.0.0-beta6",
+        "xunit.runner.aspnet": "2.0.0-aspnet-beta6"
     },
     "frameworks": {
-        "dnx451": { }
+        "dnx451": {}
     },
     "commands": {
         "test": "xunit.runner.aspnet"

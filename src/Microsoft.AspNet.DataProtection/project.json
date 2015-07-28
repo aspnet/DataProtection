@@ -1,18 +1,24 @@
 {
-    "version": "1.0.0-*",
+    "version": "1.0.0-beta6",
     "description": "ASP.NET 5 logic to protect and unprotect data, similar to DPAPI.",
     "repository": {
         "type": "git",
         "url": "git://github.com/aspnet/dataprotection"
     },
     "dependencies": {
-        "Microsoft.AspNet.Cryptography.Internal": "1.0.0-*",
-        "Microsoft.AspNet.DataProtection.Abstractions": "1.0.0-*",
-        "Microsoft.AspNet.DataProtection.Sources": { "type": "build", "version": "" },
-        "Microsoft.Framework.DependencyInjection.Abstractions": "1.0.0-*",
-        "Microsoft.Framework.Logging.Abstractions": "1.0.0-*",
-        "Microsoft.Framework.NotNullAttribute.Sources": { "type": "build", "version": "1.0.0-*" },
-        "Microsoft.Framework.OptionsModel": "1.0.0-*"
+        "Microsoft.AspNet.Cryptography.Internal": "1.0.0-beta6",
+        "Microsoft.AspNet.DataProtection.Abstractions": "1.0.0-beta6",
+        "Microsoft.AspNet.DataProtection.Sources": {
+            "type": "build",
+            "version": "1.0.0-beta6"
+        },
+        "Microsoft.Framework.DependencyInjection.Abstractions": "1.0.0-beta6",
+        "Microsoft.Framework.Logging.Abstractions": "1.0.0-beta6",
+        "Microsoft.Framework.NotNullAttribute.Sources": {
+            "type": "build",
+            "version": "1.0.0-beta6"
+        },
+        "Microsoft.Framework.OptionsModel": "1.0.0-beta6"
     },
     "frameworks": {
         "net451": {
@@ -33,20 +39,20 @@
         },
         "dnxcore50": {
             "dependencies": {
-                "Microsoft.Win32.Registry": "4.0.0-beta-*",
-                "System.IO": "4.0.10-beta-*",
-                "System.IO.FileSystem": "4.0.0-beta-*",
-                "System.Linq": "4.0.0-beta-*",
-                "System.Reflection.Extensions": "4.0.0-beta-*",
-                "System.Reflection.TypeExtensions": "4.0.0-beta-*",
-                "System.Security.Cryptography.X509Certificates": "4.0.0-beta-*",
-                "System.Security.Cryptography.Encryption.Aes": "4.0.0-beta-*",
-                "System.Security.Cryptography.Hashing.Algorithms": "4.0.0-beta-*",
-                "System.Security.Cryptography.RandomNumberGenerator": "4.0.0-beta-*",
-                "System.Security.Claims": "4.0.0-beta-*",
-                "System.Security.Principal.Windows": "4.0.0-beta-*",
-                "System.Text.Encoding.Extensions": "4.0.10-beta-*",
-                "System.Xml.XDocument": "4.0.10-beta-*"
+                "Microsoft.Win32.Registry": "4.0.0-beta-23109",
+                "System.IO": "4.0.10-beta-23109",
+                "System.IO.FileSystem": "4.0.0-beta-23109",
+                "System.Linq": "4.0.0-beta-23109",
+                "System.Reflection.Extensions": "4.0.0-beta-23109",
+                "System.Reflection.TypeExtensions": "4.0.0-beta-23109",
+                "System.Security.Cryptography.X509Certificates": "4.0.0-beta-23109",
+                "System.Security.Cryptography.Encryption.Aes": "4.0.0-beta-23109",
+                "System.Security.Cryptography.Hashing.Algorithms": "4.0.0-beta-23109",
+                "System.Security.Cryptography.RandomNumberGenerator": "4.0.0-beta-23109",
+                "System.Security.Claims": "4.0.0-beta-23109",
+                "System.Security.Principal.Windows": "4.0.0-beta-23109",
+                "System.Text.Encoding.Extensions": "4.0.10-beta-23109",
+                "System.Xml.XDocument": "4.0.10-beta-23109"
             }
         }
     },
