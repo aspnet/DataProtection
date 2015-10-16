@@ -1,30 +1,36 @@
 {
-    "version": "1.0.0-*",
+    "version": "1.0.0-beta8",
     "description": "Contains the core IDataProtector and IDataProtectionProvider abstractions for ASP.NET 5 Data Protection.",
     "repository": {
         "type": "git",
         "url": "git://github.com/aspnet/dataprotection"
     },
     "dependencies": {
-        "Microsoft.Framework.NotNullAttribute.Sources": { "type": "build", "version": "1.0.0-*" },
-        "Microsoft.AspNet.DataProtection.Sources": { "type": "build", "version": "" }
+        "Microsoft.Framework.NotNullAttribute.Sources": {
+            "type": "build",
+            "version": "1.0.0-beta8"
+        },
+        "Microsoft.AspNet.DataProtection.Sources": {
+            "type": "build",
+            "version": "1.0.0-beta8"
+        }
     },
     "frameworks": {
-        "net451": { },
+        "net451": {},
         "dnx451": {
             "dependencies": {
-                "Microsoft.Dnx.Runtime.Abstractions": "1.0.0-*"
+                "Microsoft.Dnx.Runtime.Abstractions": "1.0.0-beta8"
             }
         },
         "dnxcore50": {
             "dependencies": {
-                "Microsoft.Dnx.Runtime.Abstractions": "1.0.0-*",
-                "System.ComponentModel": "4.0.1-beta-*",
-                "System.Diagnostics.Debug": "4.0.11-beta-*",
-                "System.Reflection": "4.0.11-beta-*",
-                "System.Runtime.Extensions": "4.0.11-beta-*",
-                "System.Security.Cryptography.Primitives": "4.0.0-beta-*",
-                "System.Text.Encoding.Extensions": "4.0.11-beta-*"
+                "Microsoft.Dnx.Runtime.Abstractions": "1.0.0-beta8",
+                "System.ComponentModel": "4.0.1-beta-23409",
+                "System.Diagnostics.Debug": "4.0.11-beta-23409",
+                "System.Reflection": "4.1.0-beta-23409",
+                "System.Runtime.Extensions": "4.0.11-beta-23409",
+                "System.Security.Cryptography.Primitives": "4.0.0-beta-23409",
+                "System.Text.Encoding.Extensions": "4.0.11-beta-23409"
             }
         }
     },
