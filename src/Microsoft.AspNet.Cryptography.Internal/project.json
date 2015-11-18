@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.0-rc1-final",
   "description": "Infrastructure for ASP.NET 5 cryptographic packages. Developers should not reference this package.",
   "repository": {
     "type": "git",
@@ -10,11 +10,11 @@
     "net451": {},
     "dotnet5.4": {
       "dependencies": {
-        "System.Diagnostics.Debug": "4.0.11-beta-*",
-        "System.Runtime.Handles": "4.0.1-beta-*",
-        "System.Runtime.InteropServices": "4.0.21-beta-*",
-        "System.Security.Cryptography.Primitives": "4.0.0-beta-*",
-        "System.Threading": "4.0.11-beta-*"
+        "System.Diagnostics.Debug": "4.0.11-beta-23516",
+        "System.Runtime.Handles": "4.0.1-beta-23516",
+        "System.Runtime.InteropServices": "4.0.21-beta-23516",
+        "System.Security.Cryptography.Primitives": "4.0.0-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
       }
     }
   },

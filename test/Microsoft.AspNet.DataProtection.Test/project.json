@@ -1,21 +1,24 @@
 {
-    "dependencies": {
-        "Microsoft.AspNet.DataProtection": "1.0.0-*",
-        "Microsoft.AspNet.DataProtection.Test.Shared": { "type": "build", "version": "" },
-        "Microsoft.AspNet.Testing": "1.0.0-*",
-        "Microsoft.Extensions.DependencyInjection": "1.0.0-*",
-        "Moq": "4.2.1312.1622",
-        "xunit.runner.aspnet": "2.0.0-aspnet-*"
+  "dependencies": {
+    "Microsoft.AspNet.DataProtection": "1.0.0-rc1-final",
+    "Microsoft.AspNet.DataProtection.Test.Shared": {
+      "type": "build",
+      "version": ""
     },
-    "frameworks": {
-        "dnx451": { }
-    },
-    "commands": {
-        "test": "xunit.runner.aspnet"
-    },
-    "compilationOptions": {
-        "allowUnsafe": true,
-        "warningsAsErrors": true,
-        "keyFile": "../../tools/Key.snk"
-    }
+    "Microsoft.AspNet.Testing": "1.0.0-rc1-final",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+    "Moq": "4.2.1312.1622",
+    "xunit.runner.aspnet": "2.0.0-aspnet-rc1-final"
+  },
+  "frameworks": {
+    "dnx451": {}
+  },
+  "commands": {
+    "test": "xunit.runner.aspnet"
+  },
+  "compilationOptions": {
+    "allowUnsafe": true,
+    "warningsAsErrors": true,
+    "keyFile": "../../tools/Key.snk"
+  }
 }

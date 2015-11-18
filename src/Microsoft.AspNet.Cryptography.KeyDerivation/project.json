@@ -1,20 +1,20 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.0-rc1-final",
   "description": "ASP.NET 5 utilities for key derivation.",
   "repository": {
     "type": "git",
     "url": "git://github.com/aspnet/dataprotection"
   },
   "dependencies": {
-    "Microsoft.AspNet.Cryptography.Internal": "1.0.0-*"
+    "Microsoft.AspNet.Cryptography.Internal": "1.0.0-rc1-final"
   },
   "frameworks": {
     "net451": {},
     "dotnet5.4": {
       "dependencies": {
-        "System.Runtime.Extensions": "4.0.11-beta-*",
-        "System.Security.Cryptography.Algorithms": "4.0.0-beta-*",
-        "System.Text.Encoding.Extensions": "4.0.11-beta-*"
+        "System.Runtime.Extensions": "4.0.11-beta-23516",
+        "System.Security.Cryptography.Algorithms": "4.0.0-beta-23516",
+        "System.Text.Encoding.Extensions": "4.0.11-beta-23516"
       }
     }
   },
