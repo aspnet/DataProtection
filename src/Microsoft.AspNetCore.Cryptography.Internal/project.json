@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0-*",
+  "version": "1.1.0",
   "description": "Infrastructure for ASP.NET Core cryptographic packages. Applications and libraries should not reference this package directly.",
   "packOptions": {
     "repository": {
@@ -12,7 +12,7 @@
     ]
   },
   "dependencies": {
-    "NETStandard.Library": "1.6.1-*"
+    "NETStandard.Library": "1.6.1"
   },
   "frameworks": {
     "net451": {},
