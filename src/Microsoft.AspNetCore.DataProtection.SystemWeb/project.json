@@ -21,7 +21,7 @@
     "net451": {
       "dependencies": {
         "Microsoft.AspNetCore.DataProtection": "1.0.2",
-        "Microsoft.Extensions.DependencyInjection": "1.0.1"
+        "Microsoft.Extensions.DependencyInjection": "1.0.2"
       },
       "frameworkAssemblies": {
         "System.Configuration": "4.0.0.0",

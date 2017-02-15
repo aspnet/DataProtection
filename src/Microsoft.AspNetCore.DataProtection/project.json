@@ -19,7 +19,7 @@
       "version": "1.0.2"
     },
     "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.2",
-    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.1",
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.2",
     "Microsoft.Extensions.Logging.Abstractions": "1.0.2",
     "Microsoft.Extensions.Options": "1.0.2"
   },
