@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "dotnet-test-xunit": "2.2.0-*",
-    "Microsoft.AspNetCore.Cryptography.Internal": "1.1.0",
-    "Microsoft.AspNetCore.DataProtection.Abstractions": "1.1.0",
+    "Microsoft.AspNetCore.Cryptography.Internal": "1.1.1",
+    "Microsoft.AspNetCore.DataProtection.Abstractions": "1.1.1",
     "Microsoft.AspNetCore.Testing": "1.1.0-rtm-22752",
     "Moq": "4.6.36-*",
     "xunit": "2.2.0-*"
@@ -11,7 +11,7 @@
     "netcoreapp1.1": {
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.1.0",
+          "version": "1.1.1",
           "type": "platform"
         },
         "System.Diagnostics.TraceSource": "4.3.0"
