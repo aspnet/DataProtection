@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Redis storrage support as key store.",
   "packOptions": {
     "repository": {
@@ -13,7 +13,7 @@
     ]
   },
   "dependencies": {
-    "Microsoft.AspNetCore.DataProtection": "1.1.1",
+    "Microsoft.AspNetCore.DataProtection": "1.1.2",
     "NETStandard.Library": "1.6.1",
     "StackExchange.Redis.StrongName": "1.1.605"
   },
