@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ASP.NET Core utilities for key derivation.",
   "packOptions": {
     "repository": {
@@ -12,7 +12,7 @@
     ]
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Cryptography.Internal": "1.0.2"
+    "Microsoft.AspNetCore.Cryptography.Internal": "1.0.3"
   },
   "frameworks": {
     "net451": {},
