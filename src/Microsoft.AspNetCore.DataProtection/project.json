@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ASP.NET Core logic to protect and unprotect data, similar to DPAPI.",
   "packOptions": {
     "repository": {
@@ -12,13 +12,13 @@
     ]
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Cryptography.Internal": "1.0.4",
-    "Microsoft.AspNetCore.DataProtection.Abstractions": "1.0.4",
+    "Microsoft.AspNetCore.Cryptography.Internal": "1.0.5",
+    "Microsoft.AspNetCore.DataProtection.Abstractions": "1.0.5",
     "Microsoft.AspNetCore.DataProtection.Sources": {
       "type": "build",
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
-    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.4",
+    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.5",
     "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.2",
     "Microsoft.Extensions.Logging.Abstractions": "1.0.2",
     "Microsoft.Extensions.Options": "1.0.2"
@@ -39,7 +39,7 @@
         "Microsoft.Win32.Registry": "4.0.0",
         "System.IO.FileSystem": "4.0.1",
         "System.Reflection.Extensions": "4.0.1",
-        "System.Security.Cryptography.X509Certificates": "4.1.1",
+        "System.Security.Cryptography.X509Certificates": "4.1.2-servicing-25807-02",
         "System.Security.Claims": "4.0.1",
         "System.Security.Principal.Windows": "4.0.0",
         "System.Text.RegularExpressions": "4.1.0",
